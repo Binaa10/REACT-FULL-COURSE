@@ -250,3 +250,63 @@ const sortedByPage = books
   .slice()
   .sort((book1, book2) => book2.pages - book1.pages);
 console.log(sortedByPage);
+
+const rt = [2, 3, 4, 5, 6];
+const rtt = rt.map(function (elem) {
+  elem = elem * 2;
+  return elem;
+});
+console.log(rtt);
+
+const qwerta = ["ale", "alemu"];
+const strings = qwerta.map((ele) => ele.toUpperCase());
+console.log(strings);
+
+const users = [
+  { name: "Alice", age: 25 },
+  { name: "Bob", age: 30 },
+  { name: "Charlie", age: 35 },
+];
+const nameextract = users.map((ele) => ele.name);
+console.log(nameextract);
+
+const numbers = [1, 6, 3, 8, 2, 10];
+const numbersfilter = numbers.filter((ele) => ele > 5);
+const numberseven = numbers.filter((ele) => ele % 2 == 0);
+console.log(numberseven);
+console.log(numbersfilter);
+
+const userss = [
+  { name: "Alice", age: 25 },
+  { name: "Bob", age: 30 },
+  { name: "Charlie", age: 35 },
+];
+
+const checkage = userss.filter((ele) => ele.age > 30);
+console.log(checkage);
+console.log(userss[0].name);
+
+const numberss = [1, 2, 3, 4];
+const total = numberss.reduce((sum, ele) => sum + ele, 0);
+const product = numberss.reduce((mul, ele) => mul * ele, 1);
+console.log(total);
+console.log(product);
+
+const usersss = [
+  { name: "Alice", age: 25 },
+  { name: "Bob", age: 30 },
+  { name: "Charlie", age: 35 },
+];
+const objectProduct = usersss.reduce((total, ele) => total + ele.age, 0);
+console.log(objectProduct);
+// Expected output: 90
+
+const matrix = [
+  [1, 2],
+  [3, 4],
+  [5, 6],
+];
+
+const intoone = matrix.reduce((con, elem) => con.concat(elem), []);
+console.log(intoone);
+// Expected output: [1, 2, 3, 4, 5, 6]
