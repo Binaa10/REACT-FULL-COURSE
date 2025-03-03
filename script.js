@@ -310,3 +310,50 @@ const matrix = [
 const intoone = matrix.reduce((con, elem) => con.concat(elem), []);
 console.log(intoone);
 // Expected output: [1, 2, 3, 4, 5, 6]
+
+//Add a new object into the array
+const newBook = {
+  id: 6,
+  title: "biniyam",
+};
+
+const newAdded = [...books, newBook];
+console.log(newAdded);
+
+const yz = [1, 2, 6, 3, 5, 0];
+//const sortedyz = yz.sort((a, b) => a - b);
+//const sortedimmutable = [...yz].sort();
+const sortted = yz.slice().sort();
+console.log(yz);
+console.log(sortted);
+
+//Delete an object into the array
+const afterDelete = newAdded.filter((book) => book.id !== 3);
+console.log(afterDelete);
+
+//Upadte the array
+const UpdatetheArray = afterDelete.map((book) =>
+  book.id == 1 ? { ...book, pages: 126 } : book
+);
+console.log(UpdatetheArray);
+
+const test = [1, 2, 3, 4, 5];
+const Updatedtest = test.map((ele) => (ele == 1 ? 0 : ele));
+console.log(Updatedtest);
+
+fetch("https://jsonplaceholder.typicode.com/todos")
+  .then((ele) => ele.json())
+  .then((data) => console.log(data));
+console.log("biniyam");
+
+async function getTodos() {
+  const res = await fetch("https://jsonplaceholder.typicode.com/todos");
+  const data = await res.json();
+  console.log(data);
+
+  return data;
+}
+const ababi = getTodos();
+console.log(ababi);
+
+console.log("biniyam");
