@@ -53,7 +53,7 @@ const data = [
         ratingsCount: 11663,
         reviewsCount: 812,
       },
-      librarything: {
+      librarything: { 
         rating: 4.13,
         ratingsCount: 2434,
         reviewsCount: 0,
