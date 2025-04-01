@@ -6,7 +6,7 @@ const data = [
     author: "J. R. R. Tolkien",
     genres: [
       "fantasy",
-      "high-fantasy", 
+      "high-fantasy",  
       "adventure", 
       "fiction", 
       "novels",  
