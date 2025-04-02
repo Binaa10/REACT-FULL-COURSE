@@ -9,7 +9,7 @@ const data = [
       "high-fantasy",  
       "adventure", 
       "fiction", 
-      "novels",  
+      "novels",   
       "literature",
     ],
     hasMovieAdaptation: true,
