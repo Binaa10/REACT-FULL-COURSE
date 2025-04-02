@@ -7,7 +7,7 @@ const data = [
     genres: [
       "fantasy",
       "high-fantasy",  
-      "adventure", 
+      "adventure",  
       "fiction",  
       "novels",   
       "literature",
