@@ -4,7 +4,7 @@ const data = [
     title: "The Lord of the Rings",
     publicationDate: "1954-07-29",
     author: "J. R. R. Tolkien",
-    genres: [
+    genres: [ 
       "fantasy",
       "high-fantasy",  
       "adventure",  
