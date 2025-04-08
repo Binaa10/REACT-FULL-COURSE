@@ -5,7 +5,7 @@ const data = [
     publicationDate: "1954-07-29",
     author: "J. R. R. Tolkien",
     genres: [ 
-      "fantasy",
+      "fantasy", 
       "high-fantasy",  
       "adventure",  
       "fiction",  
