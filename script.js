@@ -1,6 +1,6 @@
 const data = [  
   {    
-    id: 1, 
+    id: 1,  
     title: "The Lord of the Rings",
     publicationDate: "1954-07-29",
     author: "J. R. R. Tolkien",
