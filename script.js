@@ -11,7 +11,7 @@ const data = [
       "fiction",  
       "novels",   
       "literature",
-    ],
+    ], 
     hasMovieAdaptation: true,
     pages: 1216,
     translations: {
