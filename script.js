@@ -10,7 +10,7 @@ const data = [
       "adventure",  
       "fiction",  
       "novels",   
-      "literature",
+      "literature", 
     ], 
     hasMovieAdaptation: true,
     pages: 1216,
