@@ -1,3 +1,4 @@
+//first data
 const data = [  
   {    
     id: 1,  
@@ -8,7 +9,7 @@ const data = [
       "fantasy", 
       "high-fantasy",  
       "adventure",  
-      "fiction",  
+      "fiction",   
       "novels",   
       "literature", 
     ], 
