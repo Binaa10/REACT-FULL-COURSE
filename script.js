@@ -9,7 +9,7 @@ const data = [
       "fantasy", 
       "high-fantasy",  
       "adventure",  
-      "fiction",   
+      "fiction",    
       "novels",   
       "literature", 
     ],  
