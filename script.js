@@ -360,3 +360,4 @@ const ababi = getTodos();
 console.log(ababi);
 
 console.log("biniyam");
+console.log("data")
