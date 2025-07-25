@@ -374,3 +374,5 @@ console.log(ababi);
 
 console.log("biniyam");
 console.log("data")
+const defor=getTodos();
+console.log(data);
